@@ -128,7 +128,17 @@ body {
     border-bottom: 1px solid #ddd;
     border-radius: 0.5rem 0.5rem 0 0;
   }
-  
+
+  .receta:nth-child(1) img {
+    content: url('/pancakes.jpg');
+    
+  }
+  .receta:nth-child(2) img {
+    content: url('/Pan-de-platano.jpg');
+  }
+  .receta:nth-child(3) img {
+    content: url('/Galletas\ Plátano.jpg')
+  }
   /* Footer */
   footer {
     text-align: center;
