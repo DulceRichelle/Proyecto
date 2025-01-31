@@ -131,13 +131,17 @@ body {
 
   .receta:nth-child(1) img {
     content: url('/pancakes.jpg');
-    
+    height: 219px;
+
   }
   .receta:nth-child(2) img {
     content: url('/Pan-de-platano.jpg');
+    height: 219px;
   }
   .receta:nth-child(3) img {
-    content: url('/Galletas\ Plátano.jpg')
+    content: url('/Galletas\ Plátano.jpg');
+    max-width: 160%;
+    height: 219px;
   }
   /* Footer */
   footer {
