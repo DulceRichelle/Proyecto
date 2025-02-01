@@ -99,7 +99,7 @@ body {
   }
   
   .beneficio:nth-child(1) img {
-    content: url('/libre\ en\ gluten.png')
+    content: url('/libre\ en\ gluten.png');
   }
   /* Recetas */
   #recetas {
@@ -174,7 +174,7 @@ body {
   }
   
   footer button {
-    background-color: #86c77a;
+    background-color: #4b6746;
     border: none;
     color: #fff;
     padding: 0.5rem 1rem;
