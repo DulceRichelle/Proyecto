@@ -132,6 +132,7 @@ body {
   .receta:nth-child(1) img {
     content: url('/pancakes.jpg');
     height: 219px;
+    text-align: center;
 
   }
   .receta:nth-child(2) img {
