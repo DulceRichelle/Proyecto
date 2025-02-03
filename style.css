@@ -18,12 +18,18 @@ body {
   }
   
   header .logo {
-    font-size: 1.5rem;
+    font-size: 1.5rrem;
     font-weight: bold;
   }
 
-  .logo-header {
-    width: 120px;
+  .logo-header{
+    content: url('/natural.bio.jpeg');
+    width: 150px;
+    position: relative;
+    bottom: 188px;
+    width: 200px;
+    height: 133px;
+    background-size: auto;
   }
   
   nav ul {
@@ -53,7 +59,7 @@ body {
   .hero {
     text-align: center;
     background: url('../img/hero.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #86aa71;
     padding: 4rem 2rem;
   }
   
@@ -106,6 +112,12 @@ body {
     content: url('/libre\ en\ gluten.png');
     height: 200px;
     width: 200px;
+  }
+
+ .beneficio:nth-child(2) img {
+   content: url('/ecologico.avif');
+   width: 200px;
+   height: 200px;
   }
   /* Recetas */
   #recetas {
