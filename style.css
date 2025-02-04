@@ -18,18 +18,8 @@ body {
   }
   
   header .logo {
-    font-size: 1.5rrem;
+    font-size: 1.5rem;
     font-weight: bold;
-  }
-
-  .logo-header{
-    content: url('/natural.bio.jpeg');
-    width: 150px;
-    position: relative;
-    bottom: 188px;
-    width: 200px;
-    height: 133px;
-    background-size: auto;
   }
   
   nav ul {
@@ -58,14 +48,21 @@ body {
   /* Hero Section */
   .hero {
     text-align: center;
-    background: url('../img/hero.jpg') no-repeat center center/cover;
     color: #86aa71;
     padding: 4rem 2rem;
+    
+  }
+
+  .hero.background-image {
+    content: url('/natural.bio.jpeg');
+    position: relative;
+    height: 100px;
   }
   
   .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    
   }
   
   .hero button {
@@ -118,6 +115,12 @@ body {
    content: url('/ecologico.avif');
    width: 200px;
    height: 200px;
+  }
+
+  .beneficio:nth-child(3) img {
+    content: url('/versatil.jpg');
+    width: 360px;
+    height: 200px;
   }
   /* Recetas */
   #recetas {
