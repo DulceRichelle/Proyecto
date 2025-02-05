@@ -1,0 +1,36 @@
+body {
+    background-color: #86c77a;
+    font-family: Ariel;
+}
+
+.productos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #86c77a;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+    width: 200px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
+
+.producto button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
