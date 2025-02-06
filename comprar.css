@@ -3,6 +3,11 @@ body {
     font-family: Ariel;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .productos {
     display: flex;
     gap: 20px;
