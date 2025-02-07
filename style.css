@@ -1,22 +1,28 @@
-/* Estilos base */
+  /* Estilos base */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #e6fdd5;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #333;
+}
+
+  .img-icono {
+    position: relative;
+    bottom: 140px;
+    right: 60px;
+    width: 110%;
+    height: 160%;
   }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #a3d39c;
-    color: #fff;
-  }
-  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #8fe183;
+  color: #ffffff;
+}
+
   header .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -37,55 +43,42 @@ body {
   }
   
   .cta {
-    background-color: #86c77a;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
     cursor: pointer;
+    font-weight: bold;
   }
   
+
   /* Hero Section */
   .hero {
     text-align: center;
-    color: #86aa71;
-    padding: 4rem 2rem;
-    
+    color: #68934f;
+    padding: 1rem 0.5rem;
   }
 
-  .hero.background-image {
-    content: url('/natural.bio.jpeg');
-    position: relative;
-    height: 100px;
-  }
+  
   
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     
   }
   
-  .hero button {
-    background-color: #86c77a;
-    border: none;
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-  }
-  
   /* Beneficios */
   #beneficios {
+    position: relative;
+    bottom: 0.5px;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #8fe183;
   }
   
   #beneficios h2 {
     text-align: center;
     margin-bottom: 1rem;
   }
-  
+
   .beneficios-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -94,10 +87,10 @@ body {
   
   .beneficio {
     text-align: center;
-    padding: 0rem;
+    padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 0.5rem;
-    background-color: #f9f9f9;
+    background-color: #fff;
   }
   
   .beneficio img {
@@ -125,7 +118,7 @@ body {
   /* Recetas */
   #recetas {
     padding: 1rem;
-    background-color: #f5f5f5;
+    background-color: #8fe183;
   }
   
   #recetas h2 {
@@ -196,6 +189,7 @@ body {
   
   footer button {
     background-color: #4b6746;
+    background-size:100px;
     border: none;
     color: #fff;
     padding: 0.5rem 1rem;

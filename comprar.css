@@ -8,6 +8,13 @@ header {
     justify-content: space-between;
 }
 
+.hero {
+    text-align: center;
+    color: #6dbe3e;
+    padding: 0.1rem 2rem;
+    
+  }
+
 .productos {
     display: flex;
     gap: 20px;
@@ -20,8 +27,8 @@ header {
     padding: 15px;
     text-align: center;
     border-radius: 10px;
-    background-color: #86c77a;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+    background-color: #a9d3a2;
+    box-shadow: 0 3px 6px rgba(150, 230, 85, 0.5);
     width: 200px;
 }
 
@@ -42,4 +49,62 @@ header {
 
 .producto button:hover {
     background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4b6746;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
+  footer .social a {
+    color: #86c77a;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  footer form {
+    margin-top: 1rem;
+  }
+  
+  footer input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  footer button {
+    background-color: #4b6746;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+@media (max-width: 768px) {
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto img{
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .producto {
+        width: 100%;
+    }
+
+    .producto img {
+        padding: 8px;
+    }
+
+    .producto button {
+        width: 100px;
+    }
 }
